@@ -8,7 +8,7 @@ namespace Persistence.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "posts",
+                name: "replies",
                 columns: table => new
                 {
                     replyId = table.Column<int>(nullable: false)

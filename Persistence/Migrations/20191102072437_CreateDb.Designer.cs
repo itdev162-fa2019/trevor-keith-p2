@@ -31,7 +31,7 @@ namespace Persistence.Migrations
 
                     b.HasKey("replyId");
 
-                    b.ToTable("posts");
+                    b.ToTable("replies");
                 });
 
             modelBuilder.Entity("Domain.Thread", b =>

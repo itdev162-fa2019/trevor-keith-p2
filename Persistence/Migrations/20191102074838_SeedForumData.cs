@@ -18,17 +18,17 @@ namespace Persistence.Migrations
                 nullable: true);
 
             migrationBuilder.InsertData(
-                table: "posts",
+                table: "replies",
                 columns: new[] { "replyId", "creationDT", "posterId", "replyContent" },
                 values: new object[] { -1, new DateTime(2019, 11, 2, 2, 48, 38, 596, DateTimeKind.Local).AddTicks(5086), -1, "Reply -1" });
 
             migrationBuilder.InsertData(
-                table: "posts",
+                table: "replies",
                 columns: new[] { "replyId", "creationDT", "posterId", "replyContent" },
                 values: new object[] { -2, new DateTime(2019, 11, 2, 2, 48, 38, 596, DateTimeKind.Local).AddTicks(6758), -2, "Reply -2" });
 
             migrationBuilder.InsertData(
-                table: "posts",
+                table: "replies",
                 columns: new[] { "replyId", "creationDT", "posterId", "replyContent" },
                 values: new object[] { -3, new DateTime(2019, 11, 2, 2, 48, 38, 596, DateTimeKind.Local).AddTicks(6781), -3, "Reply -3" });
 
@@ -66,17 +66,17 @@ namespace Persistence.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DeleteData(
-                table: "posts",
+                table: "replies",
                 keyColumn: "replyId",
                 keyValue: -3);
 
             migrationBuilder.DeleteData(
-                table: "posts",
+                table: "replies",
                 keyColumn: "replyId",
                 keyValue: -2);
 
             migrationBuilder.DeleteData(
-                table: "posts",
+                table: "replies",
                 keyColumn: "replyId",
                 keyValue: -1);
 
