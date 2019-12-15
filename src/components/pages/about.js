@@ -14,6 +14,14 @@ function About() {
             <h1>ENJOY THE MEME</h1>
             <img src={meme} alt='A dank meme'></img>
 
+            {
+            // This is a totally normal duck
+            //          _
+            //      .__(.)< (MEOW)
+            //       \___)
+            //~~~~~~~~~~~~~~~~~~~~~~~~~-->
+            }
+
         </React.Fragment>
 
     )
