@@ -24,7 +24,7 @@ const headerStyle = {
 
 const linkStyle = {
     color: "#fff",
-    testDecoration: 'none'
+    textDecoration: 'none'
 
 }
 
