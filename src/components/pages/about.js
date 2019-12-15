@@ -10,9 +10,10 @@ function About() {
             <p>States still seem really poorly thought out, like why can I not get this data from anywhere, why do I have to go through like 6 different levels to actually use the data</p>
             <p>Other than this, this seems actually pretty resonable</p>
             <p>I might need a bit more practice before I have it down completely, but I'm comfortable with it now</p>
-            
+
             <h1>ENJOY THE MEME</h1>
             <img src={meme} alt='A dank meme'></img>
+            
         </React.Fragment>
 
     )
