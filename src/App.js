@@ -7,7 +7,7 @@ class  App extends Component {
       {
       id: -1,
       title: "Work",
-      completed: false
+      completed: true
       },
       {
         id: -2,
