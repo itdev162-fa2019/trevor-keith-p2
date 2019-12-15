@@ -1,5 +1,6 @@
 import React from 'react'
-import meme from '../images/I Made This.jpg';
+import meme0 from '../images/I Made This.jpg';
+import meme1 from '../images/Javascript.png';
 
 function About() {
     return (
@@ -11,8 +12,9 @@ function About() {
             <p>Other than that, this seems actually pretty reasonable</p>
             <p>I might need a bit more practice before I have it down completely, but I'm comfortable with it now</p>
 
-            <h1>ENJOY THE MEME</h1>
-            <img src={meme} alt='A dank meme'></img>
+            <h1>ENJOY THE MEMES</h1>
+            <img src={meme0} style={imageStyle} alt='A dank meme'></img>
+            <img src={meme1} style={imageStyle} alt="A javscript meme"></img>
 
             {
             // This is a totally normal duck
@@ -25,6 +27,12 @@ function About() {
         </React.Fragment>
 
     )
+
+}
+
+const imageStyle = {
+    maxHeight: '900px'
+
 
 }
 

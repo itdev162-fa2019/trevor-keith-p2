@@ -20,6 +20,22 @@ class  App extends Component {
 
       });
 
+    // var
+    //   numZero = 0,
+    //   stringZero = "0",
+    //   arrayZero = [];
+
+    // console.log(`
+    //   ${numZero}   == "${stringZero}":\t ${numZero === stringZero}
+    //   ${numZero}   == [${arrayZero}]:\t ${numZero === arrayZero}
+    //   "${stringZero}" == [${arrayZero}]:\t ${stringZero === arrayZero}
+
+    //   People use this language unironically BTW
+
+    // `);
+
+
+
   }
 
   // Toggle Complete
